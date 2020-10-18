@@ -229,7 +229,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
 
-                        String temp4 = "When RICE increases, it means economy is decreasing, because even necessities are expensive. " +
+                        String temp4 = "When necessity (rice) increases, it means economy is decreasing, because even necessities are expensive. " +
                                 "Money value decreases, gold value will rise.";
                         despButton1.setText(temp4);
                         despButton1.setVisibility(View.VISIBLE);
@@ -470,7 +470,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
 
-                        String temp10 = "When RICE decreases, it means economy is increasing, because necessities are cheaper. " +
+                        String temp10 = "When necessity (rice) decreases, it means economy is increasing, because necessities are cheaper. " +
                                 "Money value increases, gold value will drop.";
                         despButton1.setText(temp10);
                         despButton1.setVisibility(View.VISIBLE);
